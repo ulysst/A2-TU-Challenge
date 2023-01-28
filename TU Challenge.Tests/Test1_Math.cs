@@ -147,7 +147,7 @@ namespace TU_Challenge
             var result = MyMathImplementation.IsInOrder(a, b);
             Assert.That(result, Is.EqualTo(expected));
         }
-
+        &
         [Test]
         public void TestIsInOrder()
         {
@@ -191,7 +191,6 @@ namespace TU_Challenge
             {
                 Assert.IsTrue(result[i] < result[i + 1]);
             }
-
         }
 
         /// <summary>
